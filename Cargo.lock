@@ -215,20 +215,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-private-lib-template"
-version = "0.1.0"
-dependencies = [
- "derive-getters",
- "derive-new",
- "derive_more 2.0.1",
- "fmt-derive",
- "helpful",
- "standard-traits",
- "stub-macro",
- "subtype",
-]
-
-[[package]]
 name = "sharded-slab"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -241,6 +227,20 @@ dependencies = [
 name = "standard-traits"
 version = "0.1.0"
 source = "git+https://github.com/DenisGorbachev/standard-traits#8f285e69b86c5469a41e7f873eefeb318e561dc5"
+
+[[package]]
+name = "standard-types"
+version = "0.1.0"
+dependencies = [
+ "derive-getters",
+ "derive-new",
+ "derive_more 2.0.1",
+ "fmt-derive",
+ "helpful",
+ "standard-traits",
+ "stub-macro",
+ "subtype",
+]
 
 [[package]]
 name = "stub-macro"
